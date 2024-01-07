@@ -13,10 +13,10 @@ My Blog
 {% block content %}
 <section id="welcome">
   <header>
-    <img src="{% static "blog/images/max.png" %}" alt="Max - The Author Of This Blog" />
-    <h2>ANUBHA'S BLOG</h2>
+    <img src="{% static "blog/images/anubhasharma.png" %}" alt="The Author Of This Blog" />
+    <h2>Anubha's Blog</h2>
   </header>
-  <p>Hi, I am Anubha and I love to blog about tech and the world!</p>
+  <p>Hi, I am Max and I love to blog about tech and the world!</p>
 </section>
 
 <section id="latest-posts">
@@ -24,7 +24,7 @@ My Blog
 
   <ul>
     {% for post in posts %}
-      {% include "blog/includes/post.html" %}
+      {% include "includes/post.html" %}
     {% endfor %}
   </ul>
 </section>
